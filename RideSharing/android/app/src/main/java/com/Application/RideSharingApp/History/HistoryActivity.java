@@ -29,7 +29,6 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;
 
-
 /**
  * This activity displays a list of all the previous drives made
  * by the user.
@@ -38,6 +37,7 @@ import java.util.ArrayList;
  * current money available for payout and a space for the user to place
  * the paypal email to which it is sent
  */
+
 public class HistoryActivity extends AppCompatActivity {
 
     private RecyclerView.Adapter mHistoryAdapter;
