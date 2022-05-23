@@ -17,10 +17,6 @@ import com.Application.RideSharingApp.R;
 
 import org.jetbrains.annotations.NotNull;
 
-
-/**
- * Fragment Responsible for registering a new user
- */
 public class RegisterFragment extends Fragment implements View.OnClickListener {
 
     private EditText    mEmail,
@@ -64,7 +60,6 @@ public class RegisterFragment extends Fragment implements View.OnClickListener {
             mPassword.setError("password must have at least 6 characters");
             return;
         }
-
 
 
         final String email = mEmail.getText().toString();
